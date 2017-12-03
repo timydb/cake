@@ -1,0 +1,112 @@
+.container>h2{
+	margin-bottom: 1.5em;
+	margin-top: 1.5em;
+    text-align: left;
+    font-size: 3.5em;
+    color: #F07818;
+    font-family: 'Marvel-Regular';
+}
+.check,.item_info,.info,.delivery{
+	float: left;
+}
+.check{
+	width: 50px;
+	text-align: center;
+	vertical-align: middle;
+}
+.check input{
+	vertical-align: middle;
+}
+.cart_item .check{
+	height: 222px;
+	line-height: 222px;
+}
+.info{
+	width: 55%;
+}
+.cart_th{
+	width: 100%;
+	padding-left: 50px;
+	text-align: center;
+}
+.cart_th li{
+	float: left;
+}
+.msg{
+	width: 60%;
+}
+.price,.opt,.count,.total{
+	width: 10%;	
+	float: left;
+	text-align: center;
+
+}
+
+.cart_img{
+	width: 33%;
+    float: left;
+    margin-right: 5%;
+}  
+.cart_img img{
+	max-width: 100%;
+	height: 221px;
+}
+.item_main{
+	padding-left: 50px;
+	height: 222px;
+}
+.info h3{
+	margin-top: 1em;
+}
+.info h3 a{
+	color: #F07818;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+.info h3 span{
+	display: block;
+    font-size: 1em;
+    margin: 0.7em 0;
+}
+.count input{
+	width: 40%;
+	text-align: center;
+	padding: 5px;
+}
+.count button{
+	width: 20%;
+}
+.cart_item{
+	background: #eee;
+	padding: 20px 0;
+}
+.cart_item .price,.cart_item .opt,.cart_item .count,.cart_item .total{
+	font-size: 1.5em;
+	height: 100%;
+	line-height: 222px;
+}
+.to_order{
+	height: 50px;
+	margin-top: 1.5em;
+}
+.to_order button,.to_order p{
+	float: right;
+	height: 100%;
+	line-height: 30px;
+}
+.to_order button{
+	padding: 10px;
+	background-color: #F07818;
+	color: #fff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1.2em;
+}
+.to_order p{
+	padding: 10px 15px;
+	font-size: 1.2em;
+}
+.to_order span{
+	color: #F07818;
+}

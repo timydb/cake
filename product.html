@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/product.css">
+	<title>Document</title>
+</head>
+<body>
+<header></header>
+	<div class="container clear">
+		<h2 id="plist">Our Products</h2>
+		<div class="product_main">
+			<ul class="pro_list clear" >
+
+			</ul>
+			<ul class="page_tabs clear">
+
+			</ul>
+		</div>
+		<div class="aside">
+			<section class="cate">
+				<div>
+					<h4><span></span>筛选</h4>
+					<ul class="tabs">
+						<li>
+							<a href="">奶油蛋糕 <span class="tri"></span></a>
+							<ul class="regular">
+								<li><a href="">戚风蛋糕</a></li>
+								<li><a href="">海绵蛋糕</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">芝士蛋糕 <span class="tri"></span></a>
+							<ul class="regular">
+								<li><a href="">大芝士</a></li>
+								<li><a href="">纽约芝士</a></li>
+								<li><a href="">冻芝士</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">慕斯 <span class="tri"></span></a>
+							<ul class="regular">
+								<li><a href="">提拉米苏</a></li>
+								<li><a href="">慕斯</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="">多层蛋糕 <span class="tri"></span></a>
+							<ul class="regular">
+								<li><a href="">三层</a></li>
+								<li><a href="">双层</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="cate">
+				<h4><span></span>按口味</h4>
+				<div class="check">
+					<form id="flavor">
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="flavor" value="1">
+								<i></i>
+								香草
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="flavor"  value="2">
+								<i></i>
+								巧克力
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="flavor"  value="3">
+								<i></i>
+								草莓
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="flavor"  value="4">
+								<i></i>
+								黑森林
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="flavor"  value="5">
+								<i></i>
+								混合水果
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="flavor"  value="6">
+								<i></i>
+								蜂蜜
+							</label>
+						</div>
+					</form>
+				</div>
+			</section>
+			<section class="cate">
+				<h4><span></span>按重量</h4>
+				<div class="check">
+					<form id="weight">
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="weight"  value="1">
+								<i></i>
+								1磅
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="weight"  value="2">
+								<i></i>
+								2磅
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="weight"  value="3">
+								<i></i>
+								3磅
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="weight"  value="4">
+								<i></i>
+								4磅
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="weight"  value="5">
+								<i></i>
+								更多
+							</label>
+						</div>
+					</form>
+				</div>
+			</section>
+			<section class="cate">
+				<h4><span></span>按颜色</h4>
+				<div class="check">
+					<form id="color">
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="color"  value="1">
+								<i></i>
+								白色
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="color"  value="2">
+								<i></i>
+								粉色
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="color"  value="3">
+								<i></i>
+								咖啡色
+							</label>
+						</div>
+						<div>
+							<label class="checkbox">
+								<input type="radio" name="color"  value="4">
+								<i></i>
+								彩色
+							</label>
+						</div>
+					</form>
+				</div>
+			</section>
+		</div>
+	</div>
+<footer></footer>
+<div class="mask">
+			<div id="loginBox" class="modal">                
+				<form id="loginForm">
+					<h1>账户登录</h1>
+					<div id="body" class="modal_main">
+						<div class="input_item">
+							<label for="uname">用户名</label>
+							<span class="login_tips"></span>
+							<input type="text" name="uname" id="uname" placeholder="请输入用户名">
+						</div>
+						<div class="input_item">
+							<label for="password">密码</label>
+							<input type="password" name="password" id="password" placeholder="请输入密码">
+						</div>
+						<input type="button" id="btn_login" value="登 录">
+					</div>
+					<p>没有账号？ <a class="sign" href="register.html">立即注册</a> <span><a href="#" class="forget">忘记密码?</a></span></p>			
+				</form>	
+				<i class="close">X</i>
+			</div>
+			
+	</div>
+	<div class="cart_add">
+		<p id="cart_msg" class="cart_msg"></p>
+		<button id="shop" class="continue">继续购物</button>
+		<button id="to_cart">去购物车结算</button>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/product.js"></script>
+</body>
+</html>

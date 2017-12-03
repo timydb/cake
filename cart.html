@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/cart.css">
+	<title>购物车</title>
+</head>
+<body>
+	<header>
+
+	</header>
+	<div class="container clear">
+		<h2>My Shopping Cart</h2>
+		<div class="cart_main">
+			<div class="cart_caption">
+				<div class="check">
+					<input type="checkbox" id="all">
+					<label for="all">全选</label>
+				</div>
+				<ul class="cart_th clear">
+					<li class="msg">商品信息</li>
+					<li class="price">单价</li>
+					<li class="count">数量</li>
+					<li class="total">小计</li>
+					<li class="opt">操作</li>
+				</ul>
+			</div>
+			<div id="item_list">
+
+			</div>
+			<div class="to_order clear">
+				<button id="pay">去结算</button>
+				<p>总计：<span id="price_total">￥0</span></p>
+				<p>已选则<span id="num_total">0</span>件商品</p>
+			</div>
+		</div>
+	</div>
+	<footer></footer>
+	<div class="mask">
+			<div id="loginBox" class="modal">                
+				<form id="loginForm">
+					<h1>账户登录</h1>
+					<div id="body" class="modal_main">
+						<div class="input_item">
+							<label for="uname">用户名</label>
+							<span class="login_tips"></span>
+							<input type="text" name="uname" id="uname" placeholder="请输入用户名">
+						</div>
+						<div class="input_item">
+							<label for="password">密码</label>
+							<input type="password" name="password" id="password" placeholder="请输入密码">
+						</div>
+						<input type="button" id="btn_login" value="登 录">
+					</div>
+					<p>没有账号？ <a class="sign" href="register.html">立即注册</a> <span><a href="#" class="forget">忘记密码?</a></span></p>			
+				</form>	
+				<i class="close">X</i>	
+			</div>
+		</div>
+	<div class="cart_add">
+		<p id="cart_msg" class="cart_msg"></p>
+		<button id="shop" class="continue">继续购物</button>
+		<button id="to_cart">返回首页</button>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+$(function(){
+	//侧边栏
+	$(".tabs>li>a").click(function(e){
+		e.preventDefault();
+		$(this).next().slideToggle();
+		var $uls=$(this).parent().siblings().children("ul");
+		$uls.each(function(i){
+			if($($uls[i]).css("display")!="none"){
+				$($uls[i]).slideToggle();
+			}
+		})
+		
+	})
+})

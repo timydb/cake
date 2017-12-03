@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" type="text/css" href="css/common.css">
+	<link rel="stylesheet" type="text/css" href="css/register.css">
+	<title>注册</title>
+</head>
+<body>
+	<header></header>
+	<div class="account">
+		<div class="container clear">
+			<div class="register">
+				<form> 
+					<div class="register-top clear">
+						<h3>个人信息</h3>
+						<div class="input">
+							<span class="title">用户名<label>*</label></span>
+							<span class="tips"></span>
+							<input type="text" id="user_name" name="user_name" class="result">
+						</div>
+						<div class="input">
+							<span class="title">手机号<label>*</label></span>
+							<span class="tips"></span>
+							<input type="text" id="phone" name="phone" class="result">
+						</div>
+						<div class="input">
+							<span class="title">Email<label>*</label></span>
+							<span class="tips"></span>
+							<input type="text" id="email" name="email" class="result" >
+						</div>
+						
+						<label class="checkbox">
+							<input type="checkbox" name="checkbox" checked="">
+							<i> </i>订阅资讯推送
+						</label>
+					</div>
+				    <div class="register-bottom">
+						<h3>登录信息</h3>
+						<div class="input">
+							<span class="title">密码<label>*</label></span>
+							<span class="tips"></span>
+							<input type="password" id="pwd" name="pwd" class="result">
+						</div>
+						<div class="input">
+							<span class="title">确认密码<label>*</label></span>
+							<span class="tips"></span>
+							<input type="password" id="con_pwd" name="con_pwd" class="result">
+						</div>
+						<div class="register-btn">
+							<input type="button" value="注册" id="btn_reg">
+						</div>
+					</div>
+					
+				</form>
+				<div class="alert" id="reg_alert">
+					提示信息
+				</div>
+				
+			</div>
+	    </div>
+	</div>
+	<footer></footer>
+	<div class="mask">
+			<div id="loginBox" class="modal">                
+				<form id="loginForm">
+					<h1>账户登录</h1>
+					<div id="body" class="modal_main">
+						<div class="input_item">
+							<label for="uname">用户名</label>
+							<span class="login_tips"></span>
+							<input type="text" name="uname" id="uname" placeholder="请输入用户名">
+						</div>
+						<div class="input_item">
+							<label for="password">密码</label>
+							<input type="password" name="password" id="password" placeholder="请输入密码">
+						</div>
+						<input type="button" id="btn_login" value="登 录">
+					</div>
+					<p>没有账号？ <a class="sign" href="register.html">立即注册</a> <span><a href="#" class="forget">忘记密码?</a></span></p>			
+				</form>	
+				<i class="close">X</i>
+			</div>
+		</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/register.js"></script>
+</body>
+</html>

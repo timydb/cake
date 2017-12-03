@@ -1,0 +1,2 @@
+下载xmapp，并配置
+把sql文件导入apache即可

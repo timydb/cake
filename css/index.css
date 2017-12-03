@@ -1,0 +1,255 @@
+/*banner*/
+.banner{
+	background-color: #f2f6f7;
+}
+.banner_container{
+	width: 1170px;
+	margin: 0 auto;
+	min-height: 600px;
+	background-color: #f2f6f7;
+
+}
+.banner_list ul{
+	width: 100%;
+}
+.banner_list>li{
+	float: left;
+	width: 100%;
+	position: relative;
+	padding: 12em 0 0;
+}
+.banner_content{
+	width: 1170px;
+	margin: 0 auto;
+}
+.banner_content>h2{
+	font-family: 'Marvel-Regular';
+	font-size: 6em;
+	color: #5D4B33;
+}
+.banner_content>h2>span{
+	color: #F07818;
+}
+.banner_content p{
+	font-size: 1.3em;
+	font-family: 'Roboto-Regular';
+	margin: 1em 0 3em;
+	letter-spacing: 7px;
+	color: #F07818;
+}
+.banner_content a{
+	font-size: 1.5em;
+	border: 7px solid #5D4B33;
+	color: #5D4B33;
+	padding: 0.5em 3em;
+	transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s; 
+}
+.banner_content a:hover{
+	border-color: #F07818;
+	color: #F07818;
+}
+.banner_img{
+	position: absolute;
+	top: 39%;
+	right: 3%;
+}
+/*产品列表*/
+.product{
+	padding: 5em 0;
+}
+.product img{
+	border: 1px solid #eee;
+	max-width: 100%;
+}
+.pro_container{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+	
+}
+.pro_main{
+	position: relative;
+	margin-bottom: 2em;
+	float: left;
+	width: calc(2*100%/3);
+	padding: 0 15px;
+
+}
+.pro_main img{
+	width: 730px;
+	height: 417px;
+}
+.pro_main .pro_bot{
+	position: absolute;
+	bottom: 85px;
+	height: 56px;
+	padding: 1em;
+	background-color: rgba(6, 6, 6, 0.79);
+	width: 730px;
+	opacity: 0;
+	transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+.pro_main:hover .pro_bot{
+	opacity: 1;
+}
+.pro_bot a:first-child{
+	float: left;
+	color: #fff;
+	margin-top: 0.5em;
+}
+.shop_now{
+	padding: 0.3em 1em;
+	float: right;
+	border: 2px solid;
+	color: #fff;
+	font-size: 10px;
+	transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.shop_now:hover{
+	color: #F07818;
+}
+.pro_sub{
+	position: relative;
+	margin-bottom: 2em;
+	float: left;
+	width: calc(100%/3);
+	padding: 0 15px;
+	
+}
+.pro_sub img{
+	width: 350px;
+	height: 417px;
+}
+.pro_sub .pro_bot{
+	position: absolute;
+	height: 56px;
+	bottom: 85px;
+	padding: 1em;
+	background-color: rgba(6, 6, 6, 0.79);
+	width: 350px;
+	opacity: 0;
+	transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+.pro_sub:hover .pro_bot{
+	opacity: 1;
+}
+
+.pro_container p{
+	margin-top: 1em;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #5D4B33;
+}
+.pro_info{
+	margin-top: 1em;
+	font-family: 'Roboto-Regular';
+}
+.price{
+	float: right;
+	font-size: 1.5em;
+	color: #E4393C;
+}
+
+.pro_list li{
+	float: left;
+	padding: 0 15px;
+	width: 25%;
+	margin-bottom: 2em;
+}
+.pro_item .pro_bot{
+	position: absolute;
+	height: 56px;
+	bottom: 84px;
+	padding: 1em;
+	background-color: rgba(6, 6, 6, 0.79);
+	width: 100%;
+	opacity: 0;
+	transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    -ms-transition: opacity 0.5s;
+    -moz-transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+}
+.pro_item:hover .pro_bot{
+	opacity: 1;
+}
+.pro_item{
+	position: relative;
+}
+.pro_item img{
+	width: 255px;
+	height: 268px;
+}
+.subscribe{
+	background: url("../images/slid.jpg") no-repeat fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.sub_container{
+	padding: 7em 0;
+	width: 1170px;
+	margin: 0 auto;
+	background: url("../images/slid.jpg") no-repeat fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.sub_container h3{
+	font-size: 4em;
+	color: #fff;
+	font-family: 'Marvel-Regular';
+	text-align: center;
+}
+.sub_container form{
+	width: 50%;
+	margin: 0 auto;
+}
+.sub_container input[type='text']{
+	width: 75%;
+	font-size: 1em;
+	float: left;
+	background: rgba(251, 250, 250, 0.2);
+	padding: 1em;
+	color: #fff;
+	outline: 0;
+	border: 0;
+}
+.sub_container input[type='submit']{
+	outline: 0;
+	background: #F07818;
+	width: 25%;
+	color: #fff;
+	font-size: 1em;
+	padding: 0.92em;
+	border: 0;
+	cursor: pointer;
+	border: 1px solid #F07818;
+}
+/*星星*/
+.rating{
+	direction: rtl;
+	float: left;
+	font-size: 1.2em;
+	height: 30px;
+	line-height: 30px;
+}
+.rating>span{
+	display: inline-block;
+	position: relative;
+}
+
